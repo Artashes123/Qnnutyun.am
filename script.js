@@ -21,52 +21,91 @@ function checkPhysics(){
 		correct += 1
 		document.getElementById("PHYSpatasxan1").innerHTML = '1. Ճիշտ'
 		document.getElementById("PHYSpatasxan1").style.color = 'green';
-
+	}
+	else {
+		document.getElementById("PHYSpatasxan1").innerHTML = '1. Սխալ'
+		document.getElementById("PHYSpatasxan1").style.color = 'red'
 	}
 	if(correct_answers[1].checked == true){
 		correct += 1
 		document.getElementById("PHYSpatasxan2").innerHTML = '2. Ճիշտ'
 		document.getElementById("PHYSpatasxan2").style.color = 'green';
 	}
+	else {
+		document.getElementById("PHYSpatasxan2").innerHTML = '2. Սխալ'
+		document.getElementById("PHYSpatasxan2").style.color = 'red'
+	}
 	if(correct_answers[2].checked == true){
 		correct += 1
 		document.getElementById("PHYSpatasxan3").innerHTML = '3. Ճիշտ'
 		document.getElementById("PHYSpatasxan3").style.color = 'green';		
+	}
+	else {
+		document.getElementById("PHYSpatasxan3").innerHTML = '3. Սխալ'
+		document.getElementById("PHYSpatasxan3").style.color = 'red'
 	}
 	if(correct_answers[3].checked == true){
 		correct += 1
 		document.getElementById("PHYSpatasxan4").innerHTML = '4. Ճիշտ'
 		document.getElementById("PHYSpatasxan4").style.color = 'green';		
 	}
+	else {
+		document.getElementById("PHYSpatasxan4").innerHTML = '4. Սխալ'
+		document.getElementById("PHYSpatasxan4").style.color = 'red'
+	}
 	if(correct_answers[4].checked == true){
 		correct += 1
 		document.getElementById("PHYSpatasxan5").innerHTML = '5. Ճիշտ'
 		document.getElementById("PHYSpatasxan5").style.color = 'green';		
+	}
+	else {
+		document.getElementById("PHYSpatasxan5").innerHTML = '5. Սխալ'
+		document.getElementById("PHYSpatasxan5").style.color = 'red'
 	}
 	if(correct_answers[5].checked == true){
 		correct += 1
 		document.getElementById("PHYSpatasxan6").innerHTML = '6. Ճիշտ'
 		document.getElementById("PHYSpatasxan6").style.color = 'green';		
 	}
+	else {
+		document.getElementById("PHYSpatasxan6").innerHTML = '6. Սխալ'
+		document.getElementById("PHYSpatasxan6").style.color = 'red'
+	}
 	if(correct_answers[6].checked == true){
 		correct += 1
 		document.getElementById("PHYSpatasxan7").innerHTML = '7. Ճիշտ'
 		document.getElementById("PHYSpatasxan7").style.color = 'green';		
+	}
+	else {
+		document.getElementById("PHYSpatasxan7").innerHTML = '7. Սխալ'
+		document.getElementById("PHYSpatasxan7").style.color = 'red'
 	}
 	if(correct_answers[7].checked == true){
 		correct += 1
 		document.getElementById("PHYSpatasxan8").innerHTML = '8. Ճիշտ'
 		document.getElementById("PHYSpatasxan8").style.color = 'green';		
 	}
+	else {
+		document.getElementById("PHYSpatasxan8").innerHTML = '8. Սխալ'
+		document.getElementById("PHYSpatasxan8").style.color = 'red'
+	}
 	if(correct_answers[8].checked == true){
 		correct += 1
 		document.getElementById("PHYSpatasxan9").innerHTML = '9. Ճիշտ'
 		document.getElementById("PHYSpatasxan9").style.color = 'green';		
 	}
+	else {
+		document.getElementById("PHYSpatasxan9").innerHTML = '9. Սխալ'
+		document.getElementById("PHYSpatasxan9").style.color = 'red'
+	}
 	if(correct_answers[9].checked == true){
 		correct += 1
 		document.getElementById("PHYSpatasxan10").innerHTML = '10. Ճիշտ'
 		document.getElementById("PHYSpatasxan10").style.color = 'green';		
+	}
+	else {
+		document.getElementById("PHYSpatasxan10").innerHTML = '10. Սխալ'
+		document.getElementById("PHYSpatasxan10").style.color = 'red'
 	}
 
 
@@ -98,50 +137,90 @@ function checkMath(){
 		document.getElementById("MATHpatasxan1").innerHTML = '1. Ճիշտ'
 		document.getElementById("MATHpatasxan1").style.color = 'green';
 	}
+	else {
+		document.getElementById("MATHpatasxan1").innerHTML = '1. Սխալ'
+		document.getElementById("MATHpatasxan1").style.color = 'red'
+	}
 	if(correct_answers1[1].checked == true){
 		correct += 1
 		document.getElementById("MATHpatasxan2").innerHTML = '2. Ճիշտ'
 		document.getElementById("MATHpatasxan2").style.color = 'green';
+	}
+	else {
+		document.getElementById("MATHpatasxan2").innerHTML = '2. Սխալ'
+		document.getElementById("MATHpatasxan2").style.color = 'red'
 	}
 	if(correct_answers1[2].checked == true){
 		correct += 1
 		document.getElementById("MATHpatasxan3").innerHTML = '3. Ճիշտ'
 		document.getElementById("MATHpatasxan3").style.color = 'green';		
 	}
+	else {
+		document.getElementById("MATHpatasxan3").innerHTML = '3. Սխալ'
+		document.getElementById("MATHpatasxan3").style.color = 'red'
+	}
 	if(correct_answers1[3].checked == true){
 		correct += 1
 		document.getElementById("MATHpatasxan4").innerHTML = '4. Ճիշտ'
 		document.getElementById("MATHpatasxan4").style.color = 'green';		
+	}
+	else {
+		document.getElementById("MATHpatasxan4").innerHTML = '4. Սխալ'
+		document.getElementById("MATHpatasxan4").style.color = 'red'
 	}
 	if(correct_answers1[4].checked == true){
 		correct += 1
 		document.getElementById("MATHpatasxan5").innerHTML = '5. Ճիշտ'
 		document.getElementById("MATHpatasxan5").style.color = 'green';		
 	}
+	else {
+		document.getElementById("MATHpatasxan5").innerHTML = '5. Սխալ'
+		document.getElementById("MATHpatasxan5").style.color = 'red'
+	}
 	if(correct_answers1[5].checked == true){
 		correct += 1
 		document.getElementById("MATHpatasxan6").innerHTML = '6. Ճիշտ'
 		document.getElementById("MATHpatasxan6").style.color = 'green';		
+	}
+	else {
+		document.getElementById("MATHpatasxan6").innerHTML = '6. Սխալ'
+		document.getElementById("MATHpatasxan6").style.color = 'red'
 	}
 	if(correct_answers1[6].checked == true){
 		correct += 1
 		document.getElementById("MATHpatasxan7").innerHTML = '7. Ճիշտ'
 		document.getElementById("MATHpatasxan7").style.color = 'green';		
 	}
+	else {
+		document.getElementById("MATHpatasxan7").innerHTML = '7. Սխալ'
+		document.getElementById("MATHpatasxan7").style.color = 'red'
+	}
 	if(correct_answers1[7].checked == true){
 		correct += 1
 		document.getElementById("MATHpatasxan8").innerHTML = '8. Ճիշտ'
 		document.getElementById("MATHpatasxan8").style.color = 'green';		
+	}
+	else {
+		document.getElementById("MATHpatasxan8").innerHTML = '8. Սխալ'
+		document.getElementById("MATHpatasxan8").style.color = 'red'
 	}
 	if(correct_answers1[8].checked == true){
 		correct += 1
 		document.getElementById("MATHpatasxan9").innerHTML = '9. Ճիշտ'
 		document.getElementById("MATHpatasxan9").style.color = 'green';		
 	}
+	else {
+		document.getElementById("MATHpatasxan9").innerHTML = '9. Սխալ'
+		document.getElementById("MATHpatasxan9").style.color = 'red'
+	}
 	if(correct_answers1[9].checked == true){
 		correct += 1
 		document.getElementById("MATHpatasxan10").innerHTML = '10. Ճիշտ'
 		document.getElementById("MATHpatasxan10").style.color = 'green';		
+	}
+	else {
+		document.getElementById("MATHpatasxan10").innerHTML = '10. Սխալ'
+		document.getElementById("MATHpatasxan10").style.color = 'red'
 	}
 
 	tokos.innerHTML = 'Ճիշտ պատասխանների տոկոս `' + " " + (100 * correct) / AskCount + '%'
